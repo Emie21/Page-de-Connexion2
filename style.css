@@ -1,0 +1,34 @@
+body {
+    background-color: #006ace;
+}
+
+.content {
+background-color: rgb(219, 32, 32);
+position: relative;
+margin: 0 auto;
+padding: 3px;
+height: 450px;
+max-width: 500px;
+
+}
+
+.champ {
+    border-radius: 15px;
+    background-color: rgb(13, 140, 224);
+    margin: auto;
+    width: 50%;
+    height: 300px;
+    margin-top: 80px;
+    margin-bottom: 26px;
+    color: white;
+
+}
+
+
+form{
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}

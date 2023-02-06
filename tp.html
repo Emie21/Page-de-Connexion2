@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulaire d'inscription </title>
+    <link rel="stylesheet" href="style.css">
+<head>
+
+<body>
+   
+    <h1><b>Formulaire d'inscription</b></h1>
+
+    <div class="content">
+        <div class="champ">
+   
+   <form method="post" action="">
+        <label for="prenom">Prénom :</label> <br>
+        <input type="text" id="prenom"> <br><br>
+        <label for="nom">Nom:</label> <br><br>
+        <input type="text" id="nom"><br><br>
+        <label for="age">Âge:</label> <br><br>
+        <input type="text" id="age"><br><br>
+        <input type="submit" value="Valider">
+        <input type="submit" value="Annuler">
+      
+   </form>
+ </div>
+    </div>
+
+</body>
+
+<script>
+function testNum(Âge) {
+    let result;
+    if (Âge < 18)
+    {result= 'Mineur';
+    } else{
+        result= 'Majeur';
+    }
+    return result;
+
+}
+
+</script>
+
+</html>
